@@ -96,6 +96,3 @@ I'm a **BTech** student at **Parul University**, studying **Computer Science & E
 </div>
 
 <!-- Proudly created with futuristic design using GPRM ( https://gprm.itsvg.in ) -->
-```
-
-Feel free to adjust any part to better suit your preferences!
