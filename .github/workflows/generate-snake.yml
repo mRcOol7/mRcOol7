@@ -40,6 +40,20 @@ jobs:
           frame_rate: 30                 # Higher frame rate for smooth animation
           max_grid_size: 40x40           # Max grid size for detailed display
 
+      - name: 📊 Generate GitHub Stats with Advanced Design
+        uses: lowlighter/metrics@latest  # Alternative to Ashutosh00710
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: classic               # Futuristic-styled classic template
+          base: header, repositories, activity, lines, stars, commits, gists
+          plugin_contributors: yes
+          plugin_traffic: yes
+          plugin_fortune: yes
+          plugin_languages: yes
+          config_time: true               # Display time of the report
+          output: dist/github-metrics.svg # Output the generated SVG in dist
+
       - name: 🔧 Optimize GitHub Stats for Futuristic Theme
         uses: anuraghazra/github-readme-stats@v1.0.0  # Correct version
         id: stats
@@ -52,15 +66,15 @@ jobs:
           include_all_commits: true
           custom_title: "🚀 My Futuristic GitHub Stats"
 
-      - name: 📊 Generate Activity Graph with Tech Theme
-        uses: Ashutosh00710/github-readme-activity-graph@v2.0.1  # Correct version
+      - name: 🎨 Create Tech-Themed Heatmap Contribution Graph
+        uses: avinal/github-activity-readme@v1.1.0  # New action for activity graph
         with:
-          username: ${{ github.repository_owner }}
-          theme: react-dark                # High-tech dark theme for activity graph
-          area_color: "#0ff"               # Techy cyan color
-          line: "#00f"                     # Futuristic line color
-          point: "#ff0"                    # Highlight points in bright yellow
-          output_path: dist/activity-graph.svg
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          output_dir: dist                # Place the graph in dist folder
+          period: weekly                  # Weekly activity
+          contribution_title: "🖥 Activity Graph"  # Custom graph title
+          title_color: "#00ffcc"          # Futuristic cyan title color
+          heatmap_color: "#00ffcc"        # Matching heatmap color with snake
 
       - name: 💾 Deploy to GitHub Pages Storage
         uses: crazy-max/ghaction-github-pages@v3.1.0
@@ -75,6 +89,8 @@ jobs:
       - name: 🔄 Update README with Snake Animation
         run: |
           echo "![Futuristic GitHub Contribution Snake](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-snake-futuristic.svg)" >> README.md
+          echo "![GitHub Metrics](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-metrics.svg)" >> README.md
+          echo "![GitHub Activity Heatmap](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/activity-graph.svg)" >> README.md
 
   cleanup:
     needs: generate
