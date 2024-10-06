@@ -5,6 +5,10 @@
 
 <div align="center">
 </div>
+<div align="center">
+  <!-- Adding Indian Flag -->
+  <img src="https://raw.githubusercontent.com/mRcOol7/user-attachments/assets/343f66e2-bfd7-422f-91a5-d09745ce7a1c/giphy-1.gif" alt="Indian Flag" width="200" />
+</div>
 
 
 <p align="center">
