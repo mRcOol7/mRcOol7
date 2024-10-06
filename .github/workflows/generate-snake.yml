@@ -1,52 +1,103 @@
-name: Generate Snake
+name: 🐍 Advanced GitHub Contribution Snake
 
 on:
+  # Runs at different times to capture global activity
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours
-  workflow_dispatch:  # Allows manual triggering
+    - cron: "0 */4 * * *"    # Every 4 hours
+    - cron: "0 0 * * *"      # Daily at midnight
+    - cron: "0 12 * * *"     # Daily at noon
+  workflow_dispatch:          # Manual trigger
+  push:
+    branches:
+      - main                 # Runs on main branch updates
 
 jobs:
-  generate_and_deploy:
+  generate:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+    timeout-minutes: 10
 
-      - name: Generate Snake GIF
-        uses: Platane/snk@v1.3.0  # Use a specific version
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0     # Fetch all history
+
+      - name: 🐍 Generate Snake GIF
+        uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: mRcOol7
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          # Generate multiple variants
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+          
+          # Customize snake behavior
+          snake_color: blue
+          animation_duration: 5
+          grid_size: 13
+          max_grid_size: 40x40
+          frame_rate: 20
 
-      - name: Validate SVG
-        run: |
-          if ! [[ -s dist/github-contribution-grid-snake.svg ]]; then
-            echo "SVG generation failed or is empty."
-            exit 1
-          fi
-
-      - name: Convert SVG to PNG
-        run: |
-          sudo apt-get install -y librsvg2-bin
-          rsvg-convert -o dist/github-contribution-grid-snake.png dist/github-contribution-grid-snake.svg
-
-      - name: Notify on Discord
-        if: success()  # Notify only if previous steps succeeded
-        uses: Ilshidur/action-discord@v1.0.0
+      - name: 🎨 Generate GitHub Stats SVG
+        uses: anuraghazra/github-readme-stats@v2
+        id: stats
         with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          message: "🦕 The Snake GIF has been successfully generated and is ready for deployment!"
+          username: ${{ github.repository_owner }}
+          show_icons: true
+          theme: radical
+          output_format: svg
+          output_path: dist/github-stats.svg
 
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: 📊 Generate Activity Graph
+        uses: Ashutosh00710/github-readme-activity-graph@v3
+        with:
+          username: ${{ github.repository_owner }}
+          theme: dracula
+          output_path: dist/activity-graph.svg
+
+      - name: 💾 Deploy to Storage
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "🤖 Auto-generate snake animation"
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Clean Up
+      - name: 🔄 Update README
         run: |
-          echo "Cleaning up temporary files..."
-          rm -rf dist/*
+          echo "![Snake animation](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-snake-dark.svg)" > ./profile/snake-section.md
+          
+      - name: 📧 Notify on Success
+        if: success()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: context.issue.number,
+              body: '🎉 Snake animation successfully generated!'
+            });
+
+      - name: 📝 Create Summary
+        if: always()
+        run: |
+          echo "### 🎯 Workflow Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- 🕒 Generated at: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🔄 Status: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "- 📍 Branch: ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+
+  cleanup:
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧹 Cleanup Old Workflows
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 7
+          keep_minimum_runs: 3
