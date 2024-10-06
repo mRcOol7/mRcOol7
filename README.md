@@ -9,6 +9,11 @@
   <!-- Adding Indian Flag -->
   <img src="https://raw.githubusercontent.com/mRcOol7/user-attachments/assets/343f66e2-bfd7-422f-91a5-d09745ce7a1c/giphy-1.gif" alt="Indian Flag" width="200" />
 </div>
+<div align="center" style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <!-- Adding Indian Flag -->
+  <img src="indian flag.gif" alt="Indian Flag Animation" style="border: 2px solid #ff9933; border-radius: 5px;" width="150" height="75" />
+</div>
+
 
 
 <p align="center">
