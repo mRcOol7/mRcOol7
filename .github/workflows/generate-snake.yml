@@ -66,16 +66,6 @@ jobs:
           include_all_commits: true
           custom_title: "🚀 My Futuristic GitHub Stats"
 
-      - name: 🎨 Create Tech-Themed Heatmap Contribution Graph
-        uses: avinal/github-activity-readme@v1.1.0  # New action for activity graph
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          output_dir: dist                # Place the graph in dist folder
-          period: weekly                  # Weekly activity
-          contribution_title: "🖥 Activity Graph"  # Custom graph title
-          title_color: "#00ffcc"          # Futuristic cyan title color
-          heatmap_color: "#00ffcc"        # Matching heatmap color with snake
-
       - name: 💾 Deploy to GitHub Pages Storage
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
