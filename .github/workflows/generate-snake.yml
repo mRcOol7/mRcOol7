@@ -13,15 +13,19 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 15
     steps:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0     # Fetch all history
+          fetch-depth: 0     # Fetch all history for detailed contribution tracking
 
-      - name: 🐍 Generate Snake GIF
+      - name: 🚀 Setup Node.js for Enhanced Performance
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'  # Using Node.js for enhanced snake generation features
+
+      - name: 🐍 Generate Futuristic Snake Animation
         uses: Platane/snk@v3
         id: snake-gif
         with:
@@ -29,27 +33,78 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-futuristic.svg?color_snake=#0ff&color_dots=#fff,#00f,#0ff,#f0f,#f00,#ff0
+          snake_color: "#00ffcc"         # Futuristic cyan color for the snake
+          animation_duration: 3          # Faster animation for a techie look
+          grid_size: 15                  # More detailed grid
+          frame_rate: 30                 # Higher frame rate for smooth animation
+          max_grid_size: 40x40           # Max grid size for detailed display
 
-      - name: 💾 Deploy to Storage
+      - name: 🔧 Optimize GitHub Stats for Futuristic Theme
+        uses: anuraghazra/github-readme-stats@v2
+        id: stats
+        with:
+          username: ${{ github.repository_owner }}
+          show_icons: true
+          theme: algolia                  # Dark futuristic theme
+          hide_title: false
+          count_private: true
+          include_all_commits: true
+          custom_title: "🚀 My Futuristic GitHub Stats"
+
+      - name: 📊 Generate Activity Graph with Tech Theme
+        uses: Ashutosh00710/github-readme-activity-graph@v3
+        with:
+          username: ${{ github.repository_owner }}
+          theme: react-dark                # High-tech dark theme for activity graph
+          area_color: "#0ff"               # Techy cyan color
+          line: "#00f"                     # Futuristic line color
+          point: "#ff0"                    # Highlight points in bright yellow
+          output_path: dist/activity-graph.svg
+
+      - name: 💾 Deploy to GitHub Pages Storage
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🤖 Auto-generate snake animation"
+          commit_message: "🤖 Auto-generate and deploy advanced snake animation and stats"
           jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🔄 Update README with Snake
+      - name: 🔄 Update README with Snake Animation
         run: |
-          echo "![GitHub Contribution Snake](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-snake-dark.svg)" >> README.md
+          echo "![Futuristic GitHub Contribution Snake](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-snake-futuristic.svg)" >> README.md
+
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📧 Send Success Notification
+        if: success()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: context.issue.number,
+              body: '🎉 Advanced Snake animation and GitHub stats successfully generated!'
+            });
 
   cleanup:
     needs: generate
     runs-on: ubuntu-latest
     steps:
-      - name: 🧹 Cleanup Old Workflows
+      - name: 🧹 Cleanup Old Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          retain_days: 7
-          keep_minimum_runs: 3
+          retain_days: 5                   # Shorter retention for cleaner workflow
+          keep_minimum_runs: 3             # Keep minimal runs to save storage
+
+      - name: 📜 Log Workflow Summary
+        run: |
+          echo "### 🛠 Workflow Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- 🕑 Generated at: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- ⚙️ Status: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "- 📍 Branch: ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
