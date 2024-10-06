@@ -9,28 +9,27 @@
   <!-- Adding Indian Flag -->
   <img src="https://raw.githubusercontent.com/mRcOol7/user-attachments/assets/343f66e2-bfd7-422f-91a5-d09745ce7a1c/giphy-1.gif" alt="Indian Flag" width="200" />
 </div>
-<div align="center" style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+<div align="center" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); padding: 20px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);">
   <!-- Adding Indian Flag -->
-  <img src="indian flag.gif" alt="Indian Flag Animation" style="border: 2px solid #ff9933; border-radius: 5px;" width="150" height="75" />
+  <img src="indian flag.gif" alt="Indian Flag Animation" style="border: 2px solid #ff9933; border-radius: 10px;" width="150" height="75" />
 </div>
 <p align="center">
   <a href="https://github.com/mRcOol7" target="_blank">
-    <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge&labelColor=008000&logo=github&logoColor=white&logoWidth=30" alt="Status: Online and Coding" style="border-radius: 20px;">
+    <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge&labelColor=008000&logo=github&logoColor=white&logoWidth=30" alt="Status: Online and Coding" style="border-radius: 20px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
   </a>
   <a href="https://github.com/mRcOol7" target="_blank">
-    <img src="https://img.shields.io/badge/Platform-GitHub-lightgrey?style=for-the-badge&labelColor=gray&logo=github&logoColor=white&logoWidth=30" alt="Platform: GitHub" style="border-radius: 20px;">
+    <img src="https://img.shields.io/badge/Platform-GitHub-lightgrey?style=for-the-badge&labelColor=gray&logo=github&logoColor=white&logoWidth=30" alt="Platform: GitHub" style="border-radius: 20px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
   </a>
 </p>
 
 
-<div align="center">
-  <img src="https://github.com/mRcOol7/mRcOol7/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+<div align="center" style="position: relative; padding: 20px; background: linear-gradient(135deg, #1f1f1f, #3a3a3a); border-radius: 15px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);">
+  <img src="https://github.com/mRcOol7/mRcOol7/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" style="max-width: 100%; height: auto; border-radius: 10px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0, 0, 0, 0.7)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.5)';" />
 </div>
 
-
 <!-- Adding dynamic futuristic cards and widgets -->
-<div align="center" style="background: rgba(0, 0, 0, 0.7); border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);">
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=mRcOol7&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub WidgetBox" style="border-radius: 10px; transition: transform 0.2s; max-width: 100%; height: auto;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+<div align="center" style="background: rgba(0, 0, 0, 0.8); border-radius: 20px; padding: 25px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);">
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=mRcOol7&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub WidgetBox" style="border-radius: 15px; transition: transform 0.3s; max-width: 100%; height: auto;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
 </div>
 
 # 🌌 Welcome to My Digital Realm 🌌
@@ -55,27 +54,27 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
     <tr>
       <td>
         <a href="https://instagram.com/nehal_chauhan19">
-          <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+          <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
         </a>
       </td>
       <td>
         <a href="https://linkedin.com/in/nehal-chauhan19">
-          <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+          <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
         </a>
       </td>
       <td>
         <a href="https://medium.com/@cnehal194">
-          <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+          <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
         </a>
       </td>
       <td>
         <a href="https://reddit.com/user/u/Mr_Cool_07">
-          <img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit" />
+          <img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
         </a>
       </td>
       <td>
         <a href="https://x.com/nehal_chauhan19">
-          <img src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" />
+          <img src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
         </a>
       </td>
     </tr>
@@ -85,14 +84,14 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 
 ---
 # 💻 Tech Stack
-<div align="center">
+<div align="center" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 
 | Frontend | Backend | DevOps & Tools | Deployment & Hosting | Design Tools |
 |:--------:|:-------:|:--------------:|:---------------------:|:------------:|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) | ![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white) | ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) | ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) | ![GitHub](https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github&logoColor=white) | ![Netlify](https://img.shields.io/badge/netlify-000000?style=for-the-badge&logo=netlify&logoColor=#00C7B7) | ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) |  | ![Vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |  |
-| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) |  |  |  |
+| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="GithubPages" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white" alt="Adobe Lightroom" style="border-radius: 5px;"/> |
+| <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/netlify-000000?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" style="border-radius: 5px;"/> |
+| <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" style="border-radius: 5px;"/> |  | <img src="https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" style="border-radius: 5px;"/> |  |
+| <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" style="border-radius: 5px;"/> |  |  |  |
 
 </div>
 
@@ -105,13 +104,13 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
   <table>
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="400" />
+        <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
       <td align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=react&hide_border=true" alt="GitHub Streak Stats" width="400" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=react&hide_border=true" alt="GitHub Streak Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="400" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
     </tr>
   </table>
@@ -119,7 +118,7 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 
 ## 🏆 **GitHub Trophies**
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mRcOol7&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophies" width="800" />
+  <img src="https://github-profile-trophy.vercel.app/?username=mRcOol7&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophies" width="800" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
 </div>
 
 
@@ -127,7 +126,7 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 
 ## ✍️ **Random Dev Quote**:
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
 </p>
 
 ---
@@ -139,13 +138,13 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
   <table>
     <tr>
       <td align="center">
-        <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="250">
+        <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="250" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
       <td align="center">
-        <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Coding Animation" width="250">
+        <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Coding Animation" width="250" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
       <td align="center">
-        <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" alt="Code Life GIF" width="250">
+        <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" alt="Code Life GIF" width="250" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
     </tr>
   </table>
@@ -162,13 +161,13 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 
 <div align="center">
   <a href="https://github.com/mRcOol7">
-    <img src="https://img.shields.io/github/followers/mRcOol7?label=Follow%20Me&style=social" alt="GitHub Followers Badge">
+    <img src="https://img.shields.io/github/followers/mRcOol7?label=Follow%20Me&style=social" alt="GitHub Followers Badge" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
   </a>
   <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=mRcOol7&icon=0&color=0" alt="Visitor Counter Badge">
+    <img src="https://visitcount.itsvg.in/api?id=mRcOol7&icon=0&color=0" alt="Visitor Counter Badge" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
   </a>
   <a href="https://buymeacoffee.com/cnehal194">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
   </a>
 </div>
 
