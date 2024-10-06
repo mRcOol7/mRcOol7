@@ -1,8 +1,9 @@
-name: 🕹️ Advanced GitHub Pixel Avatar Game
+name: 🐍 Advanced GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * 1"      # Every Monday at midnight
+    - cron: "0 */4 * * *"    # Every 4 hours
+    - cron: "0 0 * * *"      # Daily at midnight
     - cron: "0 12 * * *"     # Daily at noon
   workflow_dispatch:
   push:
@@ -12,7 +13,7 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: 📥 Checkout Repository
@@ -20,28 +21,30 @@ jobs:
         with:
           fetch-depth: 0     # Fetch all history
 
-      - name: 🖼️ Generate Pixel Avatar
+      - name: 🐍 Generate Snake GIF with Custom Colors
         uses: Platane/snk@v3
-        id: pixel-avatar
+        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Customizes the pixel avatar based on contribution
+          # Customize snake color and dots
           outputs: |
-            dist/github-avatar-grid.svg?pixel_shape=square&color_snake=blue&color_avatar=#FF5733,#DAF7A6,#C70039,#900C3F,#FFC300
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=blue&color_dots=#ffe066,#f4a261,#e76f51,#2a9d8f,#264653
 
-      - name: 💾 Deploy Avatar
+      - name: 💾 Deploy to Storage
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🤖 Auto-generate pixel avatar based on GitHub activity"
+          commit_message: "🤖 Auto-generate snake animation with custom colors"
           jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🔄 Update README with Avatar Game
+      - name: 🔄 Update README with Snake
         run: |
-          echo "![GitHub Pixel Avatar](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-avatar-grid.svg)" >> README.md
+          echo "![GitHub Contribution Snake](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-snake-dark.svg)" >> README.md
 
   cleanup:
     needs: generate
@@ -50,5 +53,5 @@ jobs:
       - name: 🧹 Cleanup Old Workflows
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          retain_days: 10
+          retain_days: 7
           keep_minimum_runs: 3
