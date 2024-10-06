@@ -10,6 +10,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge" alt="Status: Online and Coding">
 </p>
+<!-- New: Dynamic Banner -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</div>
 
 <!-- Adding dynamic futuristic cards and widgets -->
 <div align="center" style="background: rgba(0, 0, 0, 0.7); border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);">
@@ -114,9 +118,11 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 </p>
 
 ---
-# 🎨 **Creative Corner**
+## 🎮 **Fun Corner** 
 
 <div align="center">
+  <h3>Enjoy Some Fun Coding GIFs!</h3>
+  
   <table>
     <tr>
       <td align="center">
@@ -130,7 +136,10 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
       </td>
     </tr>
   </table>
+
+
 </div>
+
 
 
 
@@ -152,6 +161,9 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 
 <div align="center">
   <h3>Show some ❤️ by starring my repositories!</h3>
+</div>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 </div>
 
 
