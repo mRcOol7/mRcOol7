@@ -19,10 +19,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge" alt="Status: Online and Coding">
 </p>
-<!-- New: Dynamic Banner -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  <img src="https://github.com/mRcOol7/mRcOol7/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
+
 
 <!-- Adding dynamic futuristic cards and widgets -->
 <div align="center" style="background: rgba(0, 0, 0, 0.7); border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);">
