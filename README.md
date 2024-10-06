@@ -6,61 +6,105 @@
 <div align="center">
 </div>
 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge" alt="Status: Online and Coding">
+</p>
+
 <!-- Adding dynamic futuristic cards and widgets -->
 <div align="center" style="background: rgba(0, 0, 0, 0.7); border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);">
   <img src="https://github-widgetbox.vercel.app/api/profile?username=mRcOol7&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub WidgetBox" style="border-radius: 10px; transition: transform 0.2s; max-width: 100%; height: auto;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
 </div>
 
-<!-- Futuristic About Me section -->
-## 🚀 **About Me**:
-I'm a **BTech** student at **Parul University**, studying **Computer Science & Engineering**. I'm deeply passionate about **technology**, with a strong interest in **lens creation** and **ethical hacking**. I am a skilled **web developer** and have a profound interest in **cybersecurity**.
+# 🌌 Welcome to My Digital Realm 🌌
+
+## 🚀 About Me
+
+Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
+
+- 🎓 **Education**: BTech student at Parul University
+- 🖥️ **Major**: Computer Science & Engineering
+- 🔬 **Specializations**: 
+  - 🕶️ Lens Creation
+  - 🛡️ Ethical Hacking
+  - 🌐 Web Development
+  - 🔐 Cybersecurity
+
 
 ## 🌍 **Socials**:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/nehal_chauhan19) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nehal-chauhan19) 
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@cnehal194) 
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/user/u/Mr_Cool_07) 
-[![X](https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/nehal_chauhan19)
 
----
-
-# 💻 Tech Stack
-
-## 🎯 Frontend Development
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
-## ⚙️ Backend Development
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-
-## 🛠 DevOps & Tools
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-## ☁️ Deployment & Hosting
-![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-
-## 🎨 Design Tools
-![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
----
-
-## 📊 **GitHub Stats**:
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=react&hide_border=true" alt="GitHub Streak Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+  <table>
+    <tr>
+      <td>
+        <a href="https://instagram.com/nehal_chauhan19">
+          <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+        </a>
+      </td>
+      <td>
+        <a href="https://linkedin.com/in/nehal-chauhan19">
+          <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+      </td>
+      <td>
+        <a href="https://medium.com/@cnehal194">
+          <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+        </a>
+      </td>
+      <td>
+        <a href="https://reddit.com/user/u/Mr_Cool_07">
+          <img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit" />
+        </a>
+      </td>
+      <td>
+        <a href="https://x.com/nehal_chauhan19">
+          <img src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
+
+
+---
+# 💻 Tech Stack
+<div align="center">
+
+| Frontend | Backend | DevOps & Tools | Deployment & Hosting | Design Tools |
+|:--------:|:-------:|:--------------:|:---------------------:|:------------:|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) | ![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white) | ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) | ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) | ![GitHub](https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github&logoColor=white) | ![Netlify](https://img.shields.io/badge/netlify-000000?style=for-the-badge&logo=netlify&logoColor=#00C7B7) | ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) |  | ![Vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |  |
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) |  |  |  |
+
+</div>
+
+
+---
+
+## 📊 **GitHub Stats**
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="400" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=react&hide_border=true" alt="GitHub Streak Stats" width="400" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="400" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+## 🏆 **GitHub Trophies**
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mRcOol7&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophies" width="800" />
+</div>
+
 
 ---
 
@@ -70,29 +114,45 @@ I'm a **BTech** student at **Parul University**, studying **Computer Science & E
 </p>
 
 ---
+# 🎨 **Creative Corner**
 
-## 😂 **Random Dev Meme**:
-<p align="center">
-  <img src="https://memer-new.vercel.app/" alt="Dev Meme" style="height: 400px;"/>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="250">
+      </td>
+      <td align="center">
+        <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Coding Animation" width="250">
+      </td>
+      <td align="center">
+        <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" alt="Code Life GIF" width="250">
+      </td>
+    </tr>
+  </table>
+</div>
+
+
 
 ---
 
-# 🎨 Creative Corner
+## 🚀 **Support & Follow**:
+
 <div align="center">
-  <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500">
+  <a href="https://github.com/mRcOol7">
+    <img src="https://img.shields.io/github/followers/mRcOol7?label=Follow%20Me&style=social" alt="GitHub Followers Badge">
+  </a>
+  <a href="https://visitcount.itsvg.in">
+    <img src="https://visitcount.itsvg.in/api?id=mRcOol7&icon=0&color=0" alt="Visitor Counter Badge">
+  </a>
+  <a href="https://buymeacoffee.com/cnehal194">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
+  </a>
 </div>
 
-[![](https://visitcount.itsvg.in/api?id=mRcOol7&icon=0&color=0)](https://visitcount.itsvg.in)
-
----
-
-## 💰 **You can support me by buying me a coffee**:
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/cnehal194) 
 <div align="center">
-  
-### Show some ❤️ by starring some of the repositories!
-
+  <h3>Show some ❤️ by starring my repositories!</h3>
 </div>
+
 
 <!-- Proudly created with futuristic design using GPRM ( https://gprm.itsvg.in ) -->
