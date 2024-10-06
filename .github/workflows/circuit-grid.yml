@@ -1,0 +1,56 @@
+name: ⚡ Advanced GitHub Contribution Circuit
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"    # Every 6 hours
+    - cron: "0 0 * * *"      # Daily at midnight
+  workflow_dispatch:
+  push:
+    branches:
+      - main                 # Runs on main branch updates
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0     # Fetch all history
+
+      - name: ⚡ Generate Circuit Grid Animation
+        uses: mRcOol7/CustomCircuitGrid@v1
+        id: circuit-grid
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Customize the circuit color, lights, and connectors
+          outputs: |
+            dist/github-contribution-grid-circuit.svg
+            dist/github-contribution-grid-circuit-dark.svg?palette=github-dark
+            dist/github-contribution-grid-circuit.gif?color_circuit=cyan&color_lights=orange&color_dots=#ffcc00,#33ff99,#ff6666,#6699ff
+
+      - name: 💾 Deploy to Storage
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "🤖 Auto-generate circuit grid animation"
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔄 Update README with Circuit Animation
+        run: |
+          echo "![GitHub Contribution Circuit](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-circuit-dark.svg)" >> README.md
+
+  cleanup:
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧹 Cleanup Old Workflows
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 7
+          keep_minimum_runs: 3
