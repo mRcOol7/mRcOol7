@@ -41,7 +41,7 @@ jobs:
           max_grid_size: 40x40           # Max grid size for detailed display
 
       - name: 📊 Generate GitHub Stats with Advanced Design
-        uses: lowlighter/metrics@latest  # Alternative to Ashutosh00710
+        uses: lowlighter/metrics@latest  # Correct GitHub Stats Integration
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
@@ -54,17 +54,15 @@ jobs:
           config_time: true               # Display time of the report
           output: dist/github-metrics.svg # Output the generated SVG in dist
 
-      - name: 🔧 Optimize GitHub Stats for Futuristic Theme
-        uses: anuraghazra/github-readme-stats@v1.0.0  # Correct version
-        id: stats
+      - name: 🎨 Create Tech-Themed Heatmap Contribution Graph
+        uses: avinal/github-activity-readme@v1.1.0  # New action for activity graph
         with:
-          username: ${{ github.repository_owner }}
-          show_icons: true
-          theme: algolia                  # Dark futuristic theme
-          hide_title: false
-          count_private: true
-          include_all_commits: true
-          custom_title: "🚀 My Futuristic GitHub Stats"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          output_dir: dist                # Place the graph in dist folder
+          period: weekly                  # Weekly activity
+          contribution_title: "🖥 Activity Graph"  # Custom graph title
+          title_color: "#00ffcc"          # Futuristic cyan title color
+          heatmap_color: "#00ffcc"        # Matching heatmap color with snake
 
       - name: 💾 Deploy to GitHub Pages Storage
         uses: crazy-max/ghaction-github-pages@v3.1.0
@@ -76,7 +74,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🔄 Update README with Snake Animation
+      - name: 🔄 Update README with Snake Animation and Stats
         run: |
           echo "![Futuristic GitHub Contribution Snake](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-snake-futuristic.svg)" >> README.md
           echo "![GitHub Metrics](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-metrics.svg)" >> README.md
