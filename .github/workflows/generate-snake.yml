@@ -41,7 +41,7 @@ jobs:
           max_grid_size: 40x40           # Max grid size for detailed display
 
       - name: 🔧 Optimize GitHub Stats for Futuristic Theme
-        uses: anuraghazra/github-readme-stats@v2
+        uses: anuraghazra/github-readme-stats@v1.0.0  # Correct version
         id: stats
         with:
           username: ${{ github.repository_owner }}
@@ -53,7 +53,7 @@ jobs:
           custom_title: "🚀 My Futuristic GitHub Stats"
 
       - name: 📊 Generate Activity Graph with Tech Theme
-        uses: Ashutosh00710/github-readme-activity-graph@v3
+        uses: Ashutosh00710/github-readme-activity-graph@v2.0.1  # Correct version
         with:
           username: ${{ github.repository_owner }}
           theme: react-dark                # High-tech dark theme for activity graph
@@ -75,22 +75,6 @@ jobs:
       - name: 🔄 Update README with Snake Animation
         run: |
           echo "![Futuristic GitHub Contribution Snake](https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/output/github-contribution-grid-snake-futuristic.svg)" >> README.md
-
-  notify:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 📧 Send Success Notification
-        if: success()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const { owner, repo } = context.repo;
-            await github.rest.issues.createComment({
-              owner,
-              repo,
-              issue_number: context.issue.number,
-              body: '🎉 Advanced Snake animation and GitHub stats successfully generated!'
-            });
 
   cleanup:
     needs: generate
