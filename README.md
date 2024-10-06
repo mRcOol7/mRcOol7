@@ -13,12 +13,16 @@
   <!-- Adding Indian Flag -->
   <img src="indian flag.gif" alt="Indian Flag Animation" style="border: 2px solid #ff9933; border-radius: 5px;" width="150" height="75" />
 </div>
-
-
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge" alt="Status: Online and Coding">
+  <a href="https://github.com/mRcOol7" target="_blank">
+    <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge&labelColor=008000&logo=github&logoColor=white&logoWidth=30" alt="Status: Online and Coding" style="border-radius: 20px;">
+  </a>
+  <a href="https://github.com/mRcOol7" target="_blank">
+    <img src="https://img.shields.io/badge/Platform-GitHub-lightgrey?style=for-the-badge&labelColor=gray&logo=github&logoColor=white&logoWidth=30" alt="Platform: GitHub" style="border-radius: 20px;">
+  </a>
 </p>
+
+
 <div align="center">
   <img src="https://github.com/mRcOol7/mRcOol7/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
