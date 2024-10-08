@@ -3,6 +3,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=30&duration=4000&pause=1000&color=36F7F2&background=FF000000&center=true&vCenter=true&width=600&lines=Hey+there+%F0%9F%91%8B%2C+I'm+Nehal+Chauhan;Full+Stack+Developer+%F0%9F%92%BB;Cybersecurity+Enthusiast+%F0%9F%94%92;Passionate+Tech+Learner+%F0%9F%93%88" alt="Typing SVG" />
 </h1>
 
+<p align="center">
+  <a href="https://wakatime.com/@75105d6d-69ac-4059-8da2-102413f1f187">
+    <img src="https://wakatime.com/badge/user/75105d6d-69ac-4059-8da2-102413f1f187.svg" alt="WakaTime badge" />
+  </a>
+</p>
+
 <div align="center">
 </div>
 <div align="center">
