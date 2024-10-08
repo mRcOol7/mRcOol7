@@ -1,14 +1,18 @@
-<!-- Header with typing animation -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=30&duration=4000&pause=1000&color=36F7F2&background=FF000000&center=true&vCenter=true&width=600&lines=Hey+there+%F0%9F%91%8B%2C+I'm+Nehal+Chauhan;Full+Stack+Developer+%F0%9F%92%BB;Cybersecurity+Enthusiast+%F0%9F%94%92;Passionate+Tech+Learner+%F0%9F%93%88" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=32&duration=3000&pause=1000&color=00E0FF&center=true&vCenter=true&width=800&lines=Hey+there+%F0%9F%91%8B%2C+I'm+Nehal+Chauhan;Full+Stack+Developer+%F0%9F%92%BB;Cybersecurity+Enthusiast+%F0%9F%94%92;Passionate+Tech+Learner+%F0%9F%93%88" alt="Typing SVG" />
 </h1>
 
 <p align="center">
   <a href="https://wakatime.com/@75105d6d-69ac-4059-8da2-102413f1f187">
-    <img src="https://wakatime.com/badge/user/75105d6d-69ac-4059-8da2-102413f1f187.svg" alt="WakaTime badge" />
+    <img src="https://wakatime.com/badge/user/75105d6d-69ac-4059-8da2-102413f1f187.svg" alt="WakaTime badge" style="background: linear-gradient(135deg, #00E0FF, #7000FF); border-radius: 15px; padding: 10px; box-shadow: 0px 0px 20px rgba(0,224,255,0.8), 0px 0px 40px rgba(112,0,255,0.5);" />
   </a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Full%20Stack%20Developer-00E0FF?style=for-the-badge&logo=python&logoColor=black" alt="Full Stack Badge" />
+  <img src="https://img.shields.io/badge/Cybersecurity%20Enthusiast-7000FF?style=for-the-badge&logo=linux&logoColor=white" alt="Cybersecurity Badge" />
+  <img src="https://img.shields.io/badge/Passionate%20Learner-00E0FF?style=for-the-badge&logo=javascript&logoColor=black" alt="Passionate Learner Badge" />
+</p>
 <div align="center">
 </div>
 <div align="center">
