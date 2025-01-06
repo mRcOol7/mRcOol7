@@ -107,6 +107,46 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 
 ---
 
+---
+## 3D Contribution Metrics 🌌 (Latest)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-south-season-animate.svg" />
+  <img alt="3D Contribution Graph" src="https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-south-season-animate.svg" />
+</picture>
+
+---
+
+### About This Graph
+This 3D visualization represents my **GitHub contribution activity** over the past year. Each block corresponds to a day, and the height of the block represents the intensity of my contributions. 
+
+- **Dark Mode**: Displays the `Night Rainbow` theme 🌈.
+- **Light Mode**: Displays the `South Season Animate` theme 🍂.
+
+---
+
+Here’s the updated **Customization Options** section with all the 3D graphs included in a table for easy preview. Each theme is described, and the corresponding SVG file is linked for viewing.
+
+### Customization Options
+You can customize your 3D contribution graph using the following themes:
+
+| Theme Name                     | Description                                   | Preview                                                                                     |
+|--------------------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------|
+| `profile-green-animate`        | Animated green theme 🌿                      | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-green-animate.svg)       |
+| `profile-green`                | Static green theme 🍀                        | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-green.svg)               |
+| `profile-season-animate`       | Animated seasonal theme (Northern Hemisphere) 🍁 | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-season-animate.svg)      |
+| `profile-season`               | Static seasonal theme (Northern Hemisphere) 🍂 | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-season.svg)              |
+| `profile-south-season-animate` | Animated seasonal theme (Southern Hemisphere) 🌺 | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-south-season-animate.svg)|
+| `profile-south-season`         | Static seasonal theme (Southern Hemisphere) 🌸 | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-south-season.svg)        |
+| `profile-night-view`           | Night view theme with city lights 🌃          | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-night-view.svg)          |
+| `profile-night-green`          | Night mode with green accents 🌙              | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-night-green.svg)         |
+| `profile-night-rainbow`        | Night mode with rainbow accents 🌈            | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-night-rainbow.svg)       |
+| `profile-gitblock`             | Git block-style theme 🧊                     | [View](https://raw.githubusercontent.com/mRcOol7/mRcOol7/main/profile-3d-contrib/profile-gitblock.svg)            |
+
+
+---
+
 ## 📊 **GitHub Stats**
 
 <div align="center">
