@@ -1,24 +1,130 @@
 name: GitHub-Profile-3D-Contrib
-
 on:
   schedule:
-    - cron: "0 18 * * *" # Runs daily at 18:00 UTC
-  workflow_dispatch: # Allows manual triggering
-
+    - cron: "3 18 * * *"  # Runs daily at 18:03 UTC
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [ main ]    # Also run on pushes to main branch
+    paths-ignore:
+      - 'profile-3d-contrib/**'  # Prevent infinite loop by ignoring generated files
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+    
+    # Add concurrency to prevent multiple workflows from running simultaneously
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+    
+    permissions:
+      contents: write  # Explicitly set permissions
+    
     steps:
       - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          fetch-depth: 0  # Fetch all history for better contribution data
+      
+      # Add error handling and timeout
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        id: generate-3d
+        timeout-minutes: 10
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          # Additional optional configurations
+          MAX_REPOS: 100
+          SETTING_JSON: prof-3d-config.json
+        continue-on-error: true
+      
+      # Check if generation was successful
+      - name: Check Generation Status
+        if: steps.generate-3d.outcome == 'failure'
+        run: |
+          echo "3D contribution generation failed"
+          exit 1
+
+      # Add file existence check
+      - name: Verify Generated Files
+        run: |
+          if [ ! -d "profile-3d-contrib" ]; then
+            echo "Generated directory not found!"
+            exit 1
+          fi
+      
+      # Configure Git with retry logic
+      - name: Configure Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          
+      # Commit and push with error handling
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
-          git push
+          # Check if there are changes to commit
+          if [[ -n "$(git status --porcelain)" ]]; then
+            # Try to commit and push up to 3 times
+            for i in {1..3}; do
+              echo "Attempt $i to commit and push changes"
+              
+              git add -A .
+              git commit -m "chore: update 3d contrib graph [skip ci]"
+              
+              if git push; then
+                echo "Successfully pushed changes"
+                break
+              else
+                if [ $i -eq 3 ]; then
+                  echo "Failed to push after 3 attempts"
+                  exit 1
+                fi
+                echo "Push failed, retrying..."
+                git pull --rebase
+                sleep 5
+              fi
+            done
+          else
+            echo "No changes to commit"
+          fi
+
+      # Add notification on failure (optional)
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '3D Contribution Graph Generation Failed',
+              body: `Workflow run failed: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            })
+
+  # Add cleanup job (optional)
+  cleanup:
+    needs: build
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Delete old workflow runs
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const runs = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: context.workflow
+            });
+            
+            const oldRuns = runs.data.workflow_runs
+              .filter(run => run.status === 'completed')
+              .slice(30); // Keep last 30 runs
+              
+            for (const run of oldRuns) {
+              await github.rest.actions.deleteWorkflowRun({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: run.id
+              });
+            }
