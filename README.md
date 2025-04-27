@@ -153,10 +153,10 @@ You can customize your 3D contribution graph using the following themes:
   <table>
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
+        <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&show_icons=true&theme=radical" alt="GitHub Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
       <td align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=react&hide_border=true" alt="GitHub Streak Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=radical" alt="GitHub Streak Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
       </td>
       <td align="center">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
@@ -206,18 +206,19 @@ You can customize your 3D contribution graph using the following themes:
 
 ---
 
-## 🚀 **Support & Follow**:
-
 <div align="center">
-  <a href="https://github.com/mRcOol7">
-    <img src="https://img.shields.io/github/followers/mRcOol7?label=Follow%20Me&style=social" alt="GitHub Followers Badge" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-  </a>
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=mRcOol7&icon=0&color=0" alt="Visitor Counter Badge" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-  </a>
-  <a href="https://buymeacoffee.com/cnehal194">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-  </a>
+
+# 🌟 Connect With Me 🌟
+
+[![GitHub](https://img.shields.io/badge/GitHub-mRcOol7-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mRcOol7)
+[![Buy Me Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/cnehal194)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nehal-chauhan19/)
+
+
+![Profile Views](https://komarev.com/ghpvc/?username=mRcOol7&label=Profile%20Views&color=blueviolet&style=for-the-badge)
+
+
+
 </div>
 
 <div align="center">
