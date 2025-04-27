@@ -12,16 +12,6 @@
   <img src="https://komarev.com/ghpvc/?username=mRcOol7&label=Profile%20Views&color=blueviolet&style=flat" alt="mRcOol7" /> 
 </p>
 
-
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Full%20Stack%20Developer-00E0FF?style=for-the-badge&logo=python&logoColor=black" alt="Full Stack Badge" />
-  <img src="https://img.shields.io/badge/Cybersecurity%20Enthusiast-7000FF?style=for-the-badge&logo=linux&logoColor=white" alt="Cybersecurity Badge" />
-  <img src="https://img.shields.io/badge/Passionate%20Learner-00E0FF?style=for-the-badge&logo=javascript&logoColor=black" alt="Passionate Learner Badge" />
-</p>
-<div align="center">
-</div>
 <div align="center">
   <!-- Adding Indian Flag -->
   <img src="https://raw.githubusercontent.com/mRcOol7/user-attachments/assets/343f66e2-bfd7-422f-91a5-d09745ce7a1c/giphy-1.gif" alt="Indian Flag" width="200" />
