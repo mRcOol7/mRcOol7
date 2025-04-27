@@ -1,0 +1,35 @@
+{
+  "display": {
+    "type": "calendar",
+    "theme": "github",
+    "size": "medium",
+    "vary": "day",
+    "radius": 3,
+    "animation": true,
+    "animation_duration": 0.8,
+    "animation_delay": 0.1,
+    "animation_function": "easeOutQuint"
+  },
+  "github": {
+    "user": "mRcOol7",
+    "show_badge": true,
+    "show_icons": true,
+    "show_private": false,
+    "exclude_repos": ["repo-to-exclude-1", "repo-to-exclude-2"],
+    "include_repos": ["specific-repo-to-include"],
+    "max_repos": 100
+  },
+  "colors": {
+    "background": "#0D1117",
+    "grid": "#161B22",
+    "gradient": ["#0e4429", "#006d32", "#26a641", "#39d353"],
+    "text": "#FFFFFF",
+    "contrib": {
+      "0": "#161B22",
+      "1": "#0e4429",
+      "2": "#006d32",
+      "3": "#26a641",
+      "4": "#39d353"
+    }
+  }
+}
