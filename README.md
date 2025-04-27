@@ -170,44 +170,6 @@ You can customize your 3D contribution graph using the following themes:
   </table>
 </div>
 
-## 🏆 **GitHub Trophies**
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mRcOol7&theme=onedark&no-frame=true&row=1&column=6" alt="GitHub Trophies" width="800" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-</div>
-
-
----
-
-## ✍️ **Random Dev Quote**:
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-</p>
-
----
-## 🎮 **Fun Corner** 
-
-<div align="center">
-  <h3>Enjoy Some Fun Coding GIFs!</h3>
-  
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="250" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-      </td>
-      <td align="center">
-        <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Coding Animation" width="250" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-      </td>
-      <td align="center">
-        <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" alt="Code Life GIF" width="250" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-      </td>
-    </tr>
-  </table>
-
-
-</div>
-
-
-
 
 ---
 
