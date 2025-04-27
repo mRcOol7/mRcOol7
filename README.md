@@ -30,22 +30,10 @@
   <!-- Adding Indian Flag -->
   <img src="indian flag.gif" alt="Indian Flag Animation" style="border: 2px solid #ff9933; border-radius: 10px;" width="150" height="75" />
 </div>
-<p align="center">
-  <a href="https://github.com/mRcOol7" target="_blank">
-    <img src="https://img.shields.io/badge/Status-Online%20and%20Coding-brightgreen?style=for-the-badge&labelColor=008000&logo=github&logoColor=white&logoWidth=30" alt="Status: Online and Coding" style="border-radius: 20px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-  </a>
-  <a href="https://github.com/mRcOol7" target="_blank">
-    <img src="https://img.shields.io/badge/Platform-GitHub-lightgrey?style=for-the-badge&labelColor=gray&logo=github&logoColor=white&logoWidth=30" alt="Platform: GitHub" style="border-radius: 20px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-  </a>
-</p>
 
 
 <div align="center" style="position: relative; padding: 20px; background: linear-gradient(135deg, #1f1f1f, #3a3a3a); border-radius: 15px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);">
   <img src="https://github.com/mRcOol7/mRcOol7/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" style="max-width: 100%; height: auto; border-radius: 10px; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0, 0, 0, 0.7)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.5)';" />
-</div>
-<!-- Adding dynamic futuristic cards and widgets -->
-<div align="center" style="background: rgba(0, 0, 0, 0.8); border-radius: 20px; padding: 25px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);">
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=mRcOol7&data=followers,repositories,stars,commits&theme=nautilus" alt="GitHub WidgetBox" style="border-radius: 15px; transition: transform 0.3s; max-width: 100%; height: auto;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
 </div>
 
 # 🌌 Welcome to My Digital Realm 🌌
@@ -184,8 +172,9 @@ You can customize your 3D contribution graph using the following themes:
   <h3>Show some ❤️ by starring my repositories!</h3>
 </div>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+  <a href="https://github.com/mRcOol7?tab=repositories">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%"/>
+  </a>
 </div>
-
 
 <!-- Proudly created with futuristic design using GPRM ( https://gprm.itsvg.in ) -->
