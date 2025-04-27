@@ -13,6 +13,8 @@
 </p>
 
 
+
+
 <p align="center">
   <img src="https://img.shields.io/badge/Full%20Stack%20Developer-00E0FF?style=for-the-badge&logo=python&logoColor=black" alt="Full Stack Badge" />
   <img src="https://img.shields.io/badge/Cybersecurity%20Enthusiast-7000FF?style=for-the-badge&logo=linux&logoColor=white" alt="Cybersecurity Badge" />
@@ -98,19 +100,17 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
 
 ---
 # 💻 Tech Stack
+
 <div align="center" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 
 | Frontend | Backend | DevOps & Tools | Deployment & Hosting | Design Tools |
-|:--------:|:-------:|:--------------:|:---------------------:|:------------:|
+|:--------:|:-------:|:---------------:|:---------------------:|:------------:|
 | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="GithubPages" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white" alt="Adobe Lightroom" style="border-radius: 5px;"/> |
 | <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/netlify-000000?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" style="border-radius: 5px;"/> |
 | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" style="border-radius: 5px;"/> |  | <img src="https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" style="border-radius: 5px;"/> |  |
 | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" style="border-radius: 5px;"/> | <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" style="border-radius: 5px;"/> |  |  |  |
 
 </div>
-
-
----
 
 ---
 ## 3D Contribution Metrics 🌌 (Latest)
