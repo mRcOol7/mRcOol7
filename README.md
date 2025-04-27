@@ -94,7 +94,9 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
     </tr>
   </table>
 </div>
+
 ---
+
 # 💻 Tech Stack
 
 <div align="center" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
