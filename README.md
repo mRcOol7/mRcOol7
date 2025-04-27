@@ -152,23 +152,30 @@ You can customize your 3D contribution graph using the following themes:
 
 ---
 
-## 📊 **GitHub Stats**
+# 📊 **GitHub Contributions**
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&show_icons=true&theme=radical" alt="GitHub Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=radical" alt="GitHub Streak Stats" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mRcOol7&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="400" style="border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
-      </td>
-    </tr>
-  </table>
+  
+  <a href="https://github.com/mRcOol7">
+    <img src="https://github-readme-stats.vercel.app/api?username=mRcOol7&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0D1117&title_color=f2055c&icon_color=F8D866&text_color=c9d1d9&ring_color=ff00f7" width="49%" alt="mRcOol7's GitHub Stats"/>
+  </a>
+  <a href="https://github.com/mRcOol7">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mRcOol7&theme=radical&hide_border=true&background=0D1117&stroke=0D1117&fire=ff00f7&currStreakLabel=ff00f7&sideLabels=f2055c" width="49%" alt="mRcOol7's Streak Stats"/>
+  </a>
+  
+  
+  <details>
+    <summary><h2>🧩 Language Detail</h2></summary>
+    <div align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mRcOol7&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=10&bg_color=0D1117&title_color=f2055c" alt="Top Languages" width="50%" />
+    </div>
+  </details>
+  
+
+  
 </div>
+
+<!-- End of GitHub Stats Section -->
 
 
 ---
