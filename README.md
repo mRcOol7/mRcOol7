@@ -81,11 +81,19 @@ Greetings, fellow digital explorer! Step into my world of bytes and algorithms:
           <img src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
         </a>
       </td>
+      <td>
+        <a href="https://nehalchauhanportfolio.vercel.app/">
+          <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
+        </a>
+      </td>
+      <td>
+        <a href="mailto:cnehal194@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" style="transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
+        </a>
+      </td>
     </tr>
   </table>
 </div>
-
-
 ---
 # 💻 Tech Stack
 
