@@ -3,10 +3,15 @@
 </h1>
 
 <p align="center">
+  <!-- WakaTime Coding Activity Badge -->
   <a href="https://wakatime.com/@75105d6d-69ac-4059-8da2-102413f1f187">
-    <img src="https://wakatime.com/badge/user/75105d6d-69ac-4059-8da2-102413f1f187.svg" alt="WakaTime badge" style="background: linear-gradient(135deg, #00E0FF, #7000FF); border-radius: 15px; padding: 10px; box-shadow: 0px 0px 20px rgba(0,224,255,0.8), 0px 0px 40px rgba(112,0,255,0.5);" />
+    <img src="https://wakatime.com/badge/user/75105d6d-69ac-4059-8da2-102413f1f187.svg" alt="WakaTime Coding Stats" />
   </a>
+  &nbsp;
+  <!-- Profile Views Counter -->
+  <img src="https://komarev.com/ghpvc/?username=mRcOol7&label=Profile%20Views&color=blueviolet&style=flat" alt="mRcOol7" /> 
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Full%20Stack%20Developer-00E0FF?style=for-the-badge&logo=python&logoColor=black" alt="Full Stack Badge" />
@@ -205,21 +210,6 @@ You can customize your 3D contribution graph using the following themes:
 
 
 ---
-
-<div align="center">
-
-# 🌟 Connect With Me 🌟
-
-[![GitHub](https://img.shields.io/badge/GitHub-mRcOol7-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mRcOol7)
-[![Buy Me Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/cnehal194)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nehal-chauhan19/)
-
-
-![Profile Views](https://komarev.com/ghpvc/?username=mRcOol7&label=Profile%20Views&color=blueviolet&style=for-the-badge)
-
-
-
-</div>
 
 <div align="center">
   <h3>Show some ❤️ by starring my repositories!</h3>
