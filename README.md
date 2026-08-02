@@ -2,7 +2,7 @@
   <table border="0">
     <tr>
       <td width="38%" align="center" valign="top">
-        <img src="me.svg" alt="Nehal Chauhan — profile.sh --live" width="310" />
+        <img src="portrait_transparent.svg" alt="Nehal Chauhan — Animated Portrait" width="310" />
       </td>
       <td width="62%" align="left" valign="top">
         <p align="left">
